@@ -1,0 +1,139 @@
+header span {
+    display: inline;
+    color: #dc7739;
+    font-size: 90px;
+    font-weight: bold;
+}
+header img {
+    width: 120px;
+    height: 90px;
+    margin-top: 20px;
+}
+body {
+    background-color: #e9dfd4;
+}
+h3 {
+    color: #519872;
+    font-size: 20px;
+    margin-left: 15%;
+}
+h4 {
+    color: #519872;
+}
+.bar {
+    background-color: #dc7739;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.indexintro {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #519872;
+}
+.new-recipe {
+    background-color: #e3ab87;
+    margin-left: 15%;
+    margin-right: 20%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.new-recipe p {
+    font-size: 18px;
+}
+.new-recipe span {
+    font-style: italic;
+    font-size: 16px;
+}
+.recipe {
+    background-color: #e3ab87;
+    margin: 20px;
+    margin-left: 15%;
+    padding: 40px;
+    border-radius: 15px;
+    width: 40%;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4px;
+}
+.grid-item button {
+    border: none;
+    color: #e9dfd4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #dc7739;
+}
+.recipeName {
+    color: #519872;
+    font-weight: bold;
+    font-size: 20px;
+}
+.recipe p {
+    color: #519872;
+    font-size: 20px;
+}
+.recipe grid-item {
+    padding: 2px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.aboutinfo {
+    background-color: #e3ab87;
+    margin-left: 15%;
+    margin-right: 20%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.recipe-categories {
+    background-color: #e3ab87;
+    margin-left: 15%;
+    margin-right: 20%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.searchbar {
+    margin-left: 15%;
+}
+.noSearchResult {
+    margin-left: 15%;
+    font-size: 20px;
+    color: #519872;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    color: #e9dfd4;
+    background-color: #dc7739;
+    height: 150px;
+}
